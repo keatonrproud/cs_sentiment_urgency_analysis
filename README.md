@@ -17,7 +17,7 @@
 
   <p align="center">
     Classifying customer support tickets based on sentiment and urgency to improve resource allocation. <br />
-    Notebooks are available to review the project with the provided dataset or visit the (basic) Flask app to test your own data.
+    Notebooks are available to review the project with the provided dataset or visit the [Flask app](https://csTicketUrgency.pythonanywhere.com) to test it out!
     <br />
     <br />
     <a href="https://github.com/keatonrproud/cs_ticket_urgency/issues">Report Bug</a>
@@ -83,7 +83,7 @@ The English-only sample was originally obtained via [Kaggle](https://www.kaggle.
 If you want an overview of the main code, [eval_requests.ipynb](https://github.com/keatonrproud/cs_ticket_urgency/blob/main/eval_requests.ipynb) is your best bet. 
 Alternatively, clone the repo and access the scripts locally.
 
-If you want to play around with the model's classifications, you can visit the web app and insert your own sentence(s) to see how it works firsthand.
+If you want to play around with the model's classifications, you can visit the [web app](https://csticketurgency.pythonanywhere.com) and insert your own data to see how it works firsthand. You can download the sample data from the flask_upload directory.
 
 ### Prerequisites
 
@@ -125,7 +125,7 @@ If you have a suggestion, please fork the repo and create a pull request. You ca
 ## Acknowledgments
 
 * [Kaggle](tps://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) for the dataset.
-* [Nils Reimers](https://twitter.com/Nils_Reimers) for his work on easyNMT, Sentence Transformers, and many other open-source projects.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
