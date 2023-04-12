@@ -17,7 +17,7 @@
 
   <p align="center">
     Classifying customer support tickets based on sentiment and urgency to improve resource allocation. <br />
-    Notebooks are available to review the project with the provided dataset or visit the [Flask app](https://csTicketUrgency.pythonanywhere.com) to test it out!
+    Notebooks are available to review the project with the provided dataset or visit the Flask app (https://csTicketUrgency.pythonanywhere.com) to test it out!
     <br />
     <br />
     <a href="https://github.com/keatonrproud/cs_ticket_urgency/issues">Report Bug</a>
@@ -69,7 +69,7 @@ The English-only sample was originally obtained via [Kaggle](https://www.kaggle.
 
 Here's an example of the output on the provided sample input data:
 
-![Sample Data](/screenshot.png)
+![Sample Data](/screenshot.PNG)
 
 ### Built With
 
