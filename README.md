@@ -128,7 +128,7 @@ If you have a suggestion, please fork the repo and create a pull request. You ca
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Kaggle](tps://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) for the dataset.
+* Thanks to the maintainers of the original [dataset](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
