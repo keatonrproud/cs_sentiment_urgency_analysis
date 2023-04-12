@@ -67,6 +67,10 @@ The biggest question is how do you prioritize all the customer service (CS) requ
 
 The English-only sample was originally obtained via [Kaggle](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter). The script used to create a multilingual (and significantly smaller) dataset for testing is the [build_translated_data.ipynb](https://github.com/keatonrproud/cs_ticket_urgency/blob/main/build_translated_data.ipynb) notebook. The reduced English-only and multilingual datasets used for building this project are available in this repo as parquet files.
 
+Here's an example of the output on the provided sample input data:
+
+![Sample Data](/screenshot.png)
+
 ### Built With
 
 [![Python][python-shield]][python-url]
