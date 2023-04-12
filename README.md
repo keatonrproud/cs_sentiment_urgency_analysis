@@ -91,7 +91,7 @@ If you want to play around with the model's classifications, you can visit the [
 
 ### Prerequisites
 
-You'll need several packages to run the scripts directly -- _[easyNMT](https://github.com/UKPLab/EasyNMT), [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), and [vaderSentiment](https://github.com/cjhutto/vaderSentiment)_. Of course, you'll need _[Flask](https://flask.palletsprojects.com/en/)_ if you intend on running the web app on your own.
+You'll need several packages to run the scripts directly -- _[deep-translator](https://pypi.org/project/deep-translator/), [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [luga](https://github.com/Proteusiq/luga), and [vaderSentiment](https://github.com/cjhutto/vaderSentiment)_. Of course, you'll need _[Flask](https://flask.palletsprojects.com/en/)_ if you intend on running the web app on your own.
 
 Ensure you have all packages installed. 
 
