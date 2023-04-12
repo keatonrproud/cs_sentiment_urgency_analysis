@@ -17,7 +17,7 @@
 
   <p align="center">
     Classifying customer support tickets based on sentiment and urgency to improve resource allocation. <br />
-    Notebooks are available to review the project with the provided dataset or visit the [Flask app](https://csTicketUrgency.pythonanywhere.com) to test it out!
+    Notebooks are available to review the project with the provided dataset or visit the Flask app (https://csTicketUrgency.pythonanywhere.com) to test it out!
     <br />
     <br />
     <a href="https://github.com/keatonrproud/cs_ticket_urgency/issues">Report Bug</a>
@@ -67,6 +67,10 @@ The biggest question is how do you prioritize all the customer service (CS) requ
 
 The English-only sample was originally obtained via [Kaggle](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter). The script used to create a multilingual (and significantly smaller) dataset for testing is the [build_translated_data.ipynb](https://github.com/keatonrproud/cs_ticket_urgency/blob/main/build_translated_data.ipynb) notebook. The reduced English-only and multilingual datasets used for building this project are available in this repo as parquet files.
 
+Here's an example of the output on the provided sample input data:
+
+![Sample Data](/screenshot.PNG)
+
 ### Built With
 
 [![Python][python-shield]][python-url]
@@ -87,7 +91,7 @@ If you want to play around with the model's classifications, you can visit the [
 
 ### Prerequisites
 
-You'll need several packages to run the scripts directly -- _[easyNMT](https://github.com/UKPLab/EasyNMT), [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), and [vaderSentiment](https://github.com/cjhutto/vaderSentiment)_. Of course, you'll need _[Flask](https://flask.palletsprojects.com/en/)_ if you intend on running the web app on your own.
+You'll need several packages to run the scripts directly -- _[deep-translator](https://pypi.org/project/deep-translator/), [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [luga](https://github.com/Proteusiq/luga), and [vaderSentiment](https://github.com/cjhutto/vaderSentiment)_. Of course, you'll need _[Flask](https://flask.palletsprojects.com/en/)_ if you intend on running the web app on your own.
 
 Ensure you have all packages installed. 
 
@@ -124,7 +128,7 @@ If you have a suggestion, please fork the repo and create a pull request. You ca
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Kaggle](tps://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) for the dataset.
+* Thanks to the maintainers of the original [dataset](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
