@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href='/staticFiles/main.css' />
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<head>
+    <meta charset="UTF-8">
+    <title>Classify Tickets</title>
+</head>
+<body>
+<h3 style="font-weight:100">This application is a demo for prioritizing customer support requests based on sentiment and urgency of the message.
+<br>You can input a string or file of strings (matching the requirements below) to see how they'd be classified.
+</h3>
+<br>
+</body>
+
+<body>
+    <h2>Classify a String</h2>
+    <h5 style="font-weight:100">Submit an example of a customer support ticket in any given language to be classified.</h5>
+    <form method="POST" action="{{url_for('classify_string')}}">
+        <input type="text" name="classify_string" style="width:500px">
+        <input type="submit" name="classify_string_btn" value="Classify">
+    </form>
+</body>
+<br>
+<br>
+<br>
+<br>
+<body>
+    <h2>Classify a File of Tickets</h2>
+    <h5 style="font-weight:100">Submit a .csv file with no header, and the text for each ticket in the first column with no other data.<br>
+    For testing, you can download and use the sample_input.csv from the GitHub repo in the flask_upload directory.</h5>
+    <form method="POST" action="{{url_for('classify_file')}}" enctype="multipart/form-data">
+        <input type="file" name="tickets_file" value="flask_upload/sample_input.csv">
+        <input type="submit" name="classify_file_btn" value="Classify">
+    </form>
+</body>
+</html>
