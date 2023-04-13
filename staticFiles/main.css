@@ -1,11 +1,11 @@
 table {
-    font-family: arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 12px;
-    margin-top: 20px;
-    margin-right: 25px;
+    margin-top: 30px;
     border-collapse:separate;
     border:solid black 1px;
     border-radius:6px;
+    align: center;
 }
 
 td, th {
@@ -22,8 +22,74 @@ tr:nth-child(odd) {
     background-color: #87CEEB;
 }
 
+div {
+    padding: 0px 15px 15px 15px;
+}
+
+.header {
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    padding: 0px 5px 5px 5px;
+    color: gray;
+}
+
+.string {
+    padding-bottom: 0px;
+}
+
+.response{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+h5 {
+    margin-top: 2;
+    margin-bottom: 2;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
 body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   background: #cfebf7;
-  margin-top: 25px;
-  margin-left: 50px;
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0px 20px 20px 20px;
+  text-align: center;
+  line-height: 130%;
  }
+
+
+hr {
+    margin: 1.5em auto;
+    position: relative;
+    height: 9px;
+    width: 9px;
+    border: transparent;
+    overflow: visible;
+    background-image: url('data:image/svg+xml;utf8,<svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><rect x="0.75" y="0.5" width="8" height="8" rx="4" fill="%231CB0A8" /></svg>');
+}
+
+hr:before {
+    position: absolute;
+    height: 9px;
+    width: 10px;
+    content: '';
+    background-image: url('data:image/svg+xml;utf8,<svg width="10" height="9" viewBox="0 0 10 9" xmlns="http://www.w3.org/2000/svg"><path d="M3.91043 1.29752C4.30449 0.688518 5.19551 0.688519 5.58957 1.29752L9.25143 6.95675C9.68196 7.62211 9.20436 8.5 8.41186 8.5H1.08814C0.29564 8.5 -0.181954 7.62211 0.248574 6.95675L3.91043 1.29752Z" fill="%23FCB643" /></svg>');
+    left: -18px;
+}
+
+hr:after {
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    content: '';
+    background-image: url('data:image/svg+xml;utf8,<svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><rect x="0.75" y="0.5" width="8" height="8" rx="1" fill="%23EF4056" /></svg>');
+    right: -18px;
+}
