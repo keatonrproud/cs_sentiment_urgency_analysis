@@ -2,6 +2,7 @@ table {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 12px;
     margin-top: 30px;
+    margin-bottom: 20px;
     border-collapse:separate;
     border:solid black 1px;
     border-radius:6px;
@@ -50,7 +51,7 @@ h5 {
     margin-bottom: 2;
 }
 
-h4 {
+h4, h6 {
     margin-bottom: 0;
 }
 

@@ -8,8 +8,8 @@
 </head>
 <body>
 <div class="header">
-<h5 style="font-weight:100; font-style: italic">This application is a demo for prioritizing customer support requests based on sentiment and urgency of the message.
-<br>You can input a string or file of strings (matching the requirements below) to see how they'd be classified.
+<h5 style="font-weight:100; font-style: italic">This application is a demo for prioritizing customer support requests based on sentiment and urgency.
+<br>The first priority is identifying negativity, then further ordering based on perceived urgency.
 </h5>
 </div>
 <br>
@@ -27,7 +27,7 @@
 <div class="file">
     <h2>Classify a File of Tickets</h2>
     <h5 style="font-weight:100">Submit a .csv file with no header, and the text for each ticket in the first column with no other data.<br>
-    For testing, you can download and use the sample_input.csv from the GitHub repo in the flask_upload directory.</h5>
+    For testing, you can download the raw sample data from the <a href="https://github.com/keatonrproud/cs_sentiment_urgency_analysis/blob/main/flask_upload/sample_input.csv" target="_blank">GitHub repo</a>.</h5>
     <form method="POST" action="{{url_for('classify_file')}}" enctype="multipart/form-data">
         <input type="file" name="tickets_file" value="flask_upload/sample_input.csv">
         <input type="submit" name="classify_file_btn" value="Classify">
@@ -45,6 +45,22 @@
     </tr>
     {% endfor %}
     </table>
+    </form>
+    <form method="POST" action="https://formsubmit.co/keatonrproud@gmail.com">
+        <input type="text" name="_honey" style="display: none;">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <h4>Is there a string that doesn't seem right?</h4>
+        <h5 style="font-weight:100">Misclassified String:
+            <input type="text" name="String" style="width:250px"></h5>
+        <h5 style="font-weight:100">Website's Classification:
+            <input type="text" name="Classification"></h5>
+        <h5 style="font-weight:100">Your Suggested Classification:
+            <input type="text" name="User_Classification"></h5>
+
+        <input type="submit" value="Submit Feedback">
+
     </form>
 </div>
 </body>
